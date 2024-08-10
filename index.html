@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday</title>
+
+    <link rel="stylesheet" href="styles/mystyle.css" />
+  </head>
+  <body>
+    <div id="balloon-container"></div>
+    <div class="music-player">
+      <button id="btnPlay">Play</button>
+      <button id="btnPause">Pause</button>
+      <button id="btnStop">Stop</button>
+    </div>
+
+    <div class="welcome">
+      <p>Do you want to play music?</p>
+      <div>
+        <button class="btn-primary" id="btnYesPlay" onclick="playMusic(true)">
+          Yes
+        </button>
+        <button class="btn-secondary" id="btnNoPlay" onclick="playMusic(false)">
+          No
+        </button>
+      </div>
+    </div>
+    <div class="element" id="first">
+      <p>Hi <b>"Nabilla"</b></p>
+    </div>
+    <div class="element" id="two">
+      <p>I really like your name btw!</p>
+    </div>
+    <div class="element" id="three">
+      <div>
+        <span>It's your birtday!! </span>
+        <span style="font-size: 72px">&#128513;</span>
+      </div>
+    </div>
+    <div class="note">
+      <div class="element" id="four"></div>
+      <button
+        class="element send-btn"
+        type="button"
+        id="five"
+        onclick="this.style.backgroundColor = '#3d99df'"
+      >
+        Send
+      </button>
+    </div>
+    <img src="img/hat.png" alt="Hat.png" width="100" class="hat" />
+    <div class="element" id="six">
+      <img src="img/avatar.jpeg" alt="Avatar.png" />
+    </div>
+    <div class="element" id="seven">
+      <span class="flip">H</span><span class="flip">A</span
+      ><span class="flip">P</span><span class="flip">P</span
+      ><span class="flip">Y</span> <span class="flip">B</span
+      ><span class="flip">I</span><span class="flip">R</span
+      ><span class="flip">T</span><span class="flip">H</span
+      ><span class="flip">D</span><span class="flip">A</span
+      ><span class="flip">Y</span><span class="flip">!</span>
+    </div>
+    <!-- <button id="btnTest">tes</button> -->
+
+    <audio id="music" src="music/music.mp3"></audio>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
