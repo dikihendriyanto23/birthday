@@ -27,7 +27,7 @@ body {
 
 #three {
   display: none;
-  font-size: 40px;
+  font-size: 36px;
   margin-top: 150px;
   animation: threeanim 1s linear;
 }
